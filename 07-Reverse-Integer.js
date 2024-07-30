@@ -1,10 +1,13 @@
-let reverse = function(x) {
-  let number = x.toString();
-  let reverse = number.split('').reverse().join('');
-  if (parseInt(reverse) > Math.pow(2,31) - 1) {
-    return 0;
+const reverse = (x) => {
+  let number = x.toString().split("").reverse().join("");
+  if(number.includes("-")) {
+    number = parseInt(number) * -1;
+    return number < Math.pow(-2, 31) ? 0 : number;
   }
   else {
-    return parseInt(reverse) * Math.sign(x);
+    number = parseInt(number);
+    return number > Math.pow(2, 31) - 1 ? 0 : number;
   }
 }
+
+console.log(reverse(123));
