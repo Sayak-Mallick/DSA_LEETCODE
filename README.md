@@ -13,4 +13,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/Sayak-Mallick/DSA_LEETCODE/tree/master/0012-integer-to-roman) |
+## Array
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Sayak-Mallick/DSA_LEETCODE/tree/master/0239-sliding-window-maximum) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Sayak-Mallick/DSA_LEETCODE/tree/master/0239-sliding-window-maximum) |
+## Sliding Window
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Sayak-Mallick/DSA_LEETCODE/tree/master/0239-sliding-window-maximum) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Sayak-Mallick/DSA_LEETCODE/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Sayak-Mallick/DSA_LEETCODE/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
