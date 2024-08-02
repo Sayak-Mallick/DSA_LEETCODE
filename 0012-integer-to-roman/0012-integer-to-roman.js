@@ -2,8 +2,7 @@
  * @param {number} num
  * @return {string}
  */
-var intToRoman = function(num) {
-    // Define a mapping of Roman numerals to their integer values
+const intToRoman = (num) => {
     const romanNumerals = [
         { value: 1000, symbol: 'M' },
         { value: 900, symbol: 'CM' },
@@ -21,14 +20,9 @@ var intToRoman = function(num) {
     ];
 
     let result = '';
-
-    // Iterate over the Roman numerals in descending order of value
     for (const numeral of romanNumerals) {
-        // While the input number is greater than or equal to the current numeral's value
         while (num >= numeral.value) {
-            // Subtract the numeral's value from the input number
             num -= numeral.value;
-            // Append the numeral's symbol to the result
             result += numeral.symbol;
         }
     }
