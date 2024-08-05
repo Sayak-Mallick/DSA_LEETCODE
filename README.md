@@ -55,4 +55,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sayak-Mallick/DSA_LEETCODE/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Linked List
+|  |
+| ------- |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/Sayak-Mallick/DSA_LEETCODE/tree/master/0083-remove-duplicates-from-sorted-list) |
 <!---LeetCode Topics End-->
