@@ -15,13 +15,13 @@ const romanToInt = (s) => {
 
     let result = 0;
     for (let i = 0; i < s.length; i++) {
-        const currentValue = romanValues[s[i]];
-        const nextValue = romanValues[s[i + 1]];
-
-        if (nextValue && currentValue < nextValue) {
-            result -= currentValue;
+        const cur = romanValues[s[i]];
+        const next = romanValues[s[i + 1]];
+        if (cur < next) {
+            result += next - cur;
+            i++;
         } else {
-            result += currentValue;
+            result += cur;
         }
     }
 
